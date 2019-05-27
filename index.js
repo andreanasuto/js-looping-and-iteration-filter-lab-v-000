@@ -22,7 +22,7 @@ function fuzzyMatch(array, input) {
 function matchName(object,name) {
   for (const key of object) {
     if (key.name == name) {
-      debugger
+      new_array.push(key)
     }
   }
 }
