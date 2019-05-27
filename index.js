@@ -6,4 +6,5 @@ function findMatching(array, name) {
       new_array.push(element)
     }
   }
+  return new_array
 }
