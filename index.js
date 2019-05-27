@@ -12,7 +12,7 @@ function findMatching(array, name) {
 function fuzzyMatch(array, input) {
   const new_array = []
   for (const element of array) {
-    if (element.substring(input.length) == input){
+    if (element.substring(0,input.length) == input){
       debugger
       new_array.push(element)
     }
