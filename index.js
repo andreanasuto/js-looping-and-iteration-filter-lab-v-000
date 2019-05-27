@@ -20,6 +20,7 @@ function fuzzyMatch(array, input) {
 }
 
 function matchName(object,name) {
+  const new_array = []
   for (const key of object) {
     if (key.name == name) {
       new_array.push(key)
