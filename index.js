@@ -3,7 +3,7 @@ function findMatching(array, name) {
   const new_array
   for (const element of array) {
     if (element == name) {
-      new_array.push(name)
+      new_array.push(element)
     }
   }
 }
