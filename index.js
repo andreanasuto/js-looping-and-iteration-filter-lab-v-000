@@ -20,5 +20,5 @@ function fuzzyMatch(array, input) {
 }
 
 function matchName() {
-  
+
 }
