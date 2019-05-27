@@ -8,4 +8,3 @@ function findMatching(array, name) {
   }
   return new_array
 }
-
