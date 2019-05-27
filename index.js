@@ -26,4 +26,5 @@ function matchName(object,name) {
       new_array.push(key)
     }
   }
+  return new_array
 }
