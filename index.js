@@ -2,7 +2,7 @@
 function findMatching(array, name) {
   const new_array = []
   for (const element of array) {
-    if (element == name) {
+    if (element == name || element == name.toLowerCase()) {
       new_array.push(element)
     }
   }
