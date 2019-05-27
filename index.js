@@ -19,6 +19,10 @@ function fuzzyMatch(array, input) {
   return new_array
 }
 
-function matchName() {
-
+function matchName(object,name) {
+  for (const key of object) {
+    if (key.name == name) {
+      debugger
+    }
+  }
 }
