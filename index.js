@@ -17,6 +17,5 @@ function fuzzyMatch(array, input) {
     }
   }
   debugger
-
   return new_array
 }
