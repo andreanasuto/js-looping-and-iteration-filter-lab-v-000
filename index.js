@@ -8,3 +8,15 @@ function findMatching(array, name) {
   }
   return new_array
 }
+
+function fuzzyMatch(array, input) {
+  const new_array = []
+  for (const element of array) {
+    if (element.substring(input.length) == input {
+      new_array.push(element)
+    }
+  }
+  debugger
+
+  return new_array
+}
